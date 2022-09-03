@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* //background-color: rgb(119, 7, 87); */
+}
+.grid-main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  grid-column: 10px;
+}
+.grid-child {
+  border: 1px solid red;
+  background-color: yellow;
+}
+.search {
+  width: 40%;
+  height: 20px;
+  border-radius: 7px;
+  padding: 10px 32px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #a7a7a7;
+  background-color: turquoise;
+}
